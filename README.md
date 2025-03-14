@@ -8,8 +8,8 @@ docker run -d --name <container_name> -p 445:445 -e "USER=<username>" -e "PASS=<
 
 Where:
   - <container_name> - the name of your container, so anything you want
-  - <username> - name of the user you want to create in the container and for samba authentication
-  - <password> - password of the user you want to create in the container and for samba authentication
+  - \<username> - name of the user you want to create in the container and for samba authentication
+  - \<password> - password of the user you want to create in the container and for samba authentication
   - <shared_dir> - the directory you want to share on your device
   - <image_name> - the name of the image
 
